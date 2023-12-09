@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run PR Conflict Checker
-        uses: mongodb-forks/conflict-bot@v1.3
+        uses: jtcovan/conflict-bot@v1.3
         with:
           github-token: ${{ secrets.CONFLICT_BOT_ACCESS_TOKEN }}
           main-branch: main
