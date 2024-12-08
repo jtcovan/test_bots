@@ -1,5 +1,7 @@
 import "fmt"
 
+var s
+var ksad
 func main() {
-	fmt.Println("Hello, 世界")
+	fmt.Println("dello!")
 }
